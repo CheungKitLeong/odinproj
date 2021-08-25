@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <style>
             .material-icons {
             font-family: 'Material Icons';
@@ -31,14 +32,16 @@
     </head>
     <body>
         <header>
-        <ul>
+        <ul id="navbar">
             <li>Gamil</li>
             <li>Images</li>
             <li><span class="material-icons">apps</span></li>
         </ul>
         </header>
         <main>
+            <div id="logo">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </div>
             <div><form><input type="text" id="search-bar"></input>
                 <input type="button" value="Google Search">
                 <input type="button" value="I'm Feeling Lucky">
@@ -46,7 +49,8 @@
 
        </main>
        <footer><div></div>
-           <div><ul><li>About</li>
+        <div class="footer" id="region">Hong Kong</div>
+        <div id="last-line" class="footer"><ul><li>About</li>
         <li>Advertising</li>
         <li>Business</li>
         <li>How Search works</li></ul>
