@@ -16,7 +16,7 @@
             word-wrap: normal;
             white-space: nowrap;
             direction: ltr;
-
+            color: gray;
             /* Support for all WebKit browsers. */
             -webkit-font-smoothing: antialiased;
             /* Support for Safari and Chrome. */
@@ -42,11 +42,22 @@
             <div id="logo">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
-            <div><form><input type="text" id="search-bar"></input>
+            <div id="search-area">
+            <form>
+           <div id="search">
+            <span class="material-icons">search</span>   
+            <input type="text" id="search-bar"></input>
+            <span class="material-icons">mic</span>
+            </div>
+            <div id="btns">
                 <input type="button" value="Google Search">
                 <input type="button" value="I'm Feeling Lucky">
-            </form></div>
-
+            </div>
+            </form>
+            <div id="space">
+                Google offered in: <a href="#">中文（繁體）</a> <a href="#">日本語</a>
+            </div>
+            </div>
        </main>
        <footer><div></div>
         <div class="footer" id="region">Hong Kong</div>
