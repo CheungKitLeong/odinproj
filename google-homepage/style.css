@@ -32,7 +32,7 @@ li{
    height: 60px;
 }
 #logo{
-    height:calc(100%-560px);
+    height:calc(50vh - 214px);
     min-height: 150px;
     max-height: 290px;
     display:flex;
@@ -93,6 +93,10 @@ input[type="button"]{
 }
 input[type="button"]:hover{
     border:1px solid #a5a9ad;
+}
+#space{
+    text-align: center;
+    height:calc(50vh - 93px);
 }
 .footer{
     background-color: #f2f2f2;
