@@ -31,7 +31,7 @@ li{
    flex-direction: row;
    height: 60px;
 }
-#logo{
+#logo{  
     height:calc(50vh - 214px);
     min-height: 150px;
     max-height: 290px;
